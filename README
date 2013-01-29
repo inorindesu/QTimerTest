@@ -1,0 +1,2 @@
+This program is use to demonstrate the fact that QObject::timerEvent
+firing might be skipped due to the event loop saturation.
