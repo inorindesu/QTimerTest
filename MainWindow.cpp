@@ -32,7 +32,7 @@ void MainWindow::timerEvent(QTimerEvent* e)
 {
   // 拖油瓶在此！
   int s = 0;
-  for(int i = 0; i < 100000; i++)
+  for(int i = 0; i < MainWindow::loopCount; i++)
     {
       qsrand(QTime::currentTime().msec());
       s += qrand();

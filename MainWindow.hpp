@@ -29,6 +29,7 @@ class MainWindow: public QMainWindow
 private:
   QTextEdit* _txt;
   int _timerId;
+  static int loopCount = 100000;
 
 protected:
   void timerEvent(QTimerEvent* e);
